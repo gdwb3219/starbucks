@@ -361,6 +361,7 @@ header .badges .badge {
 .notice .notice-line .inner__left .swiper-container {
   height: 62px;
   flex-grow: 1;
+  overflow: hidden;
 }
 .notice .notice-line .inner__left .swiper-slide {
   height: 62px;
@@ -773,6 +774,7 @@ header .badges .badge {
 .awards .swiper-container {
   width: 100%;
   height: 40px;
+  overflow: hidden;
 }
 .awards .swiper-prev,
 .awards .swiper-next {
