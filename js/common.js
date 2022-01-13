@@ -18,3 +18,5 @@ searchInputEl.addEventListener('blur', function() {
 
 
 // footer 부분
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear(); // 2022 현재연도
